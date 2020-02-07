@@ -4,7 +4,6 @@ import sys
 
 def generateLongCountToken(id):
     return "LongValueSum:" + id + "\t" + "1"
-
 def main(argv):
     line = sys.stdin.readline()
     try:
